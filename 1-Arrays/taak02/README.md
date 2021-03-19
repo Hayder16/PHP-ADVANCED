@@ -33,7 +33,7 @@ of je doet het zo:
 
 ```php
 <?php
-echo  $persoon['voornaam']. " " .  $persoon['achternaam'] . " is al jaren actief bij Ajax.";
+echo  $persoon['voornaam'] . " " .  $persoon['achternaam'] . " is al jaren actief bij Ajax.";
 ?>
 ```
 
