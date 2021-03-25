@@ -6,13 +6,14 @@
 <body>
 
 <?php
-echo $_POST["Voornaam"];
-echo $_POST["Achternaam"];
-echo $_POST["klas"];
-echo $_POST["leeftijd"];
-echo $_POST["adres"];
-echo $_POST["plaatsnaam"];
-echo $_POST["Fmuziekband"];
+
+echo $_POST['naam'] . "<br>";
+echo $_POST['achternaam'] . "<br>";
+echo $_POST['klas'] . "<br>";
+echo $_POST['leeftijd'] . "<br>";
+echo $_POST['adres'] . "<br>";
+echo $_POST['plaatsnaam'] . "<br>";
+echo $_POST['fband'] . "<br>";
 
 ?>
 
