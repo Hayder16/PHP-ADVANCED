@@ -1,0 +1,35 @@
+select{
+    margin: 10px;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+  select option[value="nothing"] {
+    background: white;
+  }
+  
+  select option[value="rood"] {
+    background: red;
+  }
+  
+  select option[value="blauw"] {
+    background: blue;
+  }
+  
+  select option[value="groen"] {
+    background: green;
+  }
+  select option[value="oranje"] {
+    background: orange;
+  }
+  select option[value="paars"] {
+    background: purple;
+  }
+  
