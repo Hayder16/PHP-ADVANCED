@@ -13,21 +13,21 @@
 <body>
     <?php
 
-echo $_POST['voornaam'];
-echo "<br>";
-echo $_POST['gender'];
-echo "<br>";
-echo $_POST['achternaam'];
-echo "<br>";
-echo $_POST['klas'];
-echo "<br>";
-echo $_POST['leeftijd'];
-echo "<br>";
-echo $_POST['adres'];
-echo "<br>";
-echo $_POST['plaats'];
-echo "<br>";
-echo $_POST['band'];
+        echo $_POST['voornaam'];
+        echo "<br>";
+        echo $_POST['gender'];
+        echo "<br>";
+        echo $_POST['achternaam'];
+        echo "<br>";
+        echo $_POST['klas'];
+        echo "<br>";
+        echo $_POST['leeftijd'];
+        echo "<br>";
+        echo $_POST['adres'];
+        echo "<br>";
+        echo $_POST['plaats'];
+        echo "<br>";
+        echo $_POST['band'];
 
     ?>
 </body>
