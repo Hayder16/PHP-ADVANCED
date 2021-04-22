@@ -8,14 +8,16 @@
 </head>
 <body>
     <?php
+
+    $color = ["red","green","blue","yellow"];
     
-    function schrijfKleur(){
-        echo "<p style='color:red'>Deze tekst heeft de kleur rood</p>";
-        echo "<p style='color:green'>Deze tekst heeft de kleur groen</p>";
-        echo "<p style='color:blue'>Deze tekst heeft de kleur blauw</p>";
-        echo "<p style='color:yellow'>Deze tekst heeft de kleur geel</p>";
+    function schrijfKleur($color,$name){
+        echo "<p style='color:".$color." ;'> Deze tekst is in de kleur $name</p>";
     }
-    schrijfKleur();
+    schrijfKleur($color[0], "red");
+    schrijfKleur($color[1], "green");
+    schrijfKleur($color[2], "blue");
+    schrijfKleur($color[3], "yellow");
     
     ?>
 </body>
