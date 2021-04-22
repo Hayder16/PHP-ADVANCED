@@ -10,34 +10,34 @@
 </head>
 <body>
 <form action="mijngegevens.php" method="post">
-    <label for="geslacht">Wat is je geslacht?</label><br>
-    <input type="radio" name="radio">
-    <label for="radio">Man:</label>
-    <input type="radio" name="radio">
-    <label for="radio">Vrouw:</label><br>
-    <label for="kleur">Kies je lievelingskleur:</label>
-    <select name="kleur" id="kluerr">
-        <option value="nothing" id="none"></option>
-        <option value="rood" id="rood">Red</option>
-        <option value="blauw" id="blauw">Blue</option>
-        <option value="groen" id="groen">Green</option>
-        <option value="oranje" id="oranje">Orange</option>
-        <option value="paars" id="paars">Purple</option>
+    <label for="man">Man</label>
+    <input type="radio" name="gender" value="man">
+    <label for="vrouw">Vrouw</label>
+    <input type="radio" name="gender" value="vrouw"><br>
+    <div>
+    <label for="colors">Kies een kleur:</label>
+    <select name="colors" id="non">
+        <option value="red">Rood</option>
+        <option value="blue">Blauw</option>
+        <option value="green">Groen</option>
+        <option value="yellow">Geel</option>
+        <option value="purple">Paars</option>
     </select><br>
+    </div>
     <label for="voornaam">Voornaam:</label>
-    <input type="text" name="naam" id=""><br>
-    <label for="anaam">Achternaam:</label>
-    <input type="text" name="achternaam" id=""><br>
-    <label for="kklas">Klas:</label>
-    <input type="text" name="klas" id=""><br>
-    <label for="lleeftijd">Leeftijd:</label>
-    <input type="text" name="leeftijd" id=""><br>
-    <label for="adress">Adres:</label>
-    <input type="text" name="adres" id=""><br>
-    <label for="plaatsnaamm">Plaatsnaam:</label>
-    <input type="text" name="plaatsnaam" id=""><br>
-    <label for="favorieteband">Favoriete band:</label>
-    <input type="text" name="fband" id=""><br>
+    <input type="text" name="voornaam">
+    <label for="achternaam">Achternaam:</label>
+    <input type="text" name="achternaam"><br>
+    <label for="klas">Klas:</label>
+    <input type="text" name="klas"><br>
+    <label for="leeftijd">Leeftijd:</label>
+    <input type="text" name="leeftijd"><br>
+    <label for="adres">Adres:</label>
+    <input type="text" name="adres"><br>
+    <label for="plaats">Plaatsnaam:</label>
+    <input type="text" name="plaats"><br>
+    <label for="band">Favoriete muziekband:</label>
+    <input type="text" name="band"><br>
     <button type="submit">Verzenden</button>
 </form>
     

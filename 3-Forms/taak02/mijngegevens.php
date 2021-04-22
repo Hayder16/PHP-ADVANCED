@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>PHP</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <?php
-    $change=$_POST['kleur'];
-    echo "<style>body{background-color:" .$change. ";}</style>";
+    $change=$_POST['colors'];
+    echo "<style>body{background-color:" .$change.";}</style>";
     ?>
 </head>
 <body>
+    <?php
 
-<?php
+echo $_POST['voornaam'];
+echo "<br>";
+echo $_POST['gender'];
+echo "<br>";
+echo $_POST['achternaam'];
+echo "<br>";
+echo $_POST['klas'];
+echo "<br>";
+echo $_POST['leeftijd'];
+echo "<br>";
+echo $_POST['adres'];
+echo "<br>";
+echo $_POST['plaats'];
+echo "<br>";
+echo $_POST['band'];
 
-
-
-echo $_POST['naam'] . " " . $_POST['achternaam'] . "<br>";
-echo $_POST['klas'] . "<br>";
-echo $_POST['leeftijd'] . "<br>";
-echo $_POST['adres'] . "<br>";
-echo $_POST['plaatsnaam'] . "<br>";
-echo $_POST['fband'] . "<br>";
-echo $_POST['radio'] . "<br>";
-echo $_POST['kleur'] . "<br>";
-
-
-?>
-
+    ?>
 </body>
 </html>
