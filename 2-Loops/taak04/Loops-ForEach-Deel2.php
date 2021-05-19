@@ -16,11 +16,10 @@
     }
 
 ?>
-
+        <button type="submit">Send</button>
         </select>
     </form>
 
-    <button type="Button">Send</button>
 
 </body>
 </html>
